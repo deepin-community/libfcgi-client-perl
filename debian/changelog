@@ -1,0 +1,32 @@
+libfcgi-client-perl (0.09-1) UNRELEASED; urgency=medium
+
+  * update
+
+ -- Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>  Mon, 16 May 2022 20:20:44 +0800
+
+libfcgi-client-perl (0.09-1) unstable; urgency=medium
+
+  [ Xavier Guimard ]
+  * Import upstream release 0.09
+  * Declare compliance with policy 4.1.5
+  * debian/copyright:
+    - Remove inc/* files
+    - Update fcgi.rb copyright
+    - Set global copyright to 2011
+  * debian/control:
+    - Replace libany-moose-perl by libmoo-perl
+    - Add libmodule-build-tiny-perl and libtype-tiny-perl in build
+      dependencies
+
+  [ gregor herrmann ]
+  * Update debian/upstream/metadata.
+  * Remove debian/tests/pkg-perl/use-whitelist.
+    The dependency causing the warning was removed.
+
+ -- Xavier Guimard <x.guimard@free.fr>  Sat, 21 Jul 2018 07:26:05 +0200
+
+libfcgi-client-perl (0.08-1) unstable; urgency=low
+
+  * Initial release. (Closes: #638055)
+
+ -- Xavier Guimard <x.guimard@free.fr>  Sun, 01 Apr 2018 18:55:40 +0200
